@@ -11,8 +11,6 @@ public interface CrudService<T, ID extends Serializable> {
 
 	T update(T entity);
 	
-	T findById(Long id);
-
 	void delete(Long id);
 
 }

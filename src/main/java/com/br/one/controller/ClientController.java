@@ -9,7 +9,7 @@ import com.br.one.service.ClientService;
 import com.br.one.service.CrudService;
 
 @RestController
-@RequestMapping("/client")
+@RequestMapping("/clients/")
 public class ClientController extends CrudController<Client, Long>{
 
 	@Autowired

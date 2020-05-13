@@ -14,7 +14,7 @@ import com.br.one.service.CityService;
 import com.br.one.service.CrudService;
 
 @RestController
-@RequestMapping("/city")
+@RequestMapping("/cities/")
 public class CityController extends CrudController<City, Long>{
 
 	@Autowired

@@ -21,7 +21,7 @@ public enum StateEnum {
 	PE("Pernanbuco"), 
 	PI("Piaui"),
 	RJ("Rio de Janeiro"), 
-	RN("Rio Grande do Norte"),
+	RN("Rio Grande çdo Norte"),
 	RS("Rio Grande do Sul"), 
 	RO("Rondonia"),
 	RR("Roraima"), 

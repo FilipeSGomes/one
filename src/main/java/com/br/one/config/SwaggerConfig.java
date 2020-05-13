@@ -31,7 +31,7 @@ public class SwaggerConfig {
 	private ApiInfo metaInfo() {
 
         ApiInfo apiInfo = new ApiInfo(
-                "Challenge Spring Boot for company livelo",
+                "Spring Boot challenge for company livelo",
                 "Techical development challenge API REST to simulate register of cities and clients",
                 "1.0",
                 "Terms of Service",

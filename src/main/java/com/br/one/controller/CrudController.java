@@ -21,11 +21,6 @@ public abstract class CrudController<T, ID extends Serializable> {
         return getService().findAll();
     }
 
-    @GetMapping("{id}")
-    public T findOne(@PathVariable Long id) {
-        return getService().findById(id);
-    }
-
     @PostMapping
     public T save(@RequestBody T entity) {
         return getService().save(entity);

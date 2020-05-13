@@ -19,14 +19,6 @@ public abstract class CrudServiceImpl<T, ID extends Serializable> implements Cru
     }
     
 	@Override
-    @Transactional(readOnly = true)
-    public T findById(Long id) {
-    	if(id == null)
-    		return null;
-        return getData().findById((ID) id).orElse(null);
-    }
-
-	@Override
     @Transactional
     public void delete(Long id) {
         getData().deleteById((ID)id);
